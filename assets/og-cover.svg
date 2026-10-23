@@ -1,20 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f9f3"/><stop offset="1" stop-color="#e6f0dc"/></linearGradient><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2b4c36"/><stop offset="1" stop-color="#14291f"/></linearGradient></defs>
-<rect width="1200" height="630" fill="url(#bg)"/>
-<rect x="780" y="48" width="363" height="530" rx="28" fill="url(#panel)"/>
-<g opacity=".12" stroke="#c1e4ba"><path d="M780 100H1143M780 160H1143M780 220H1143M780 280H1143M780 340H1143M780 400H1143M780 460H1143M780 520H1143M840 48V578M900 48V578M960 48V578M1020 48V578M1080 48V578"/></g>
-<g transform="translate(78 67) rotate(-14 22 22)"><rect x="0" y="0" width="19" height="19" rx="6" fill="#1b3927"/><rect x="24" y="0" width="19" height="19" rx="4" fill="#7fac78"/><rect x="0" y="24" width="19" height="19" rx="4" fill="#93c48c"/><rect x="24" y="24" width="19" height="19" rx="6" fill="#1b3927"/></g>
-<text x="143" y="108" fill="#172d20" font-family="Arial,sans-serif" font-weight="700" font-size="38" letter-spacing="-2">zerah<tspan fill="#78977b" font-size="23">/labs</tspan></text>
-<text x="79" y="268" fill="#15291f" font-family="Arial,sans-serif" font-weight="700" font-size="81" letter-spacing="-4">Your data.</text>
-<text x="79" y="366" fill="#47775a" font-family="Arial,sans-serif" font-weight="700" font-size="81" letter-spacing="-4">We automate.</text>
-<text x="79" y="464" fill="#15291f" font-family="Arial,sans-serif" font-weight="700" font-size="81" letter-spacing="-4">You improve.</text>
-<text x="83" y="555" fill="#667d6a" font-family="Arial,sans-serif" font-size="22">Manufacturing-first AI automation • Coimbatore</text>
-<rect x="829" y="151" width="268" height="126" rx="16" fill="#fff" transform="rotate(-5 963 214)"/>
-<text x="855" y="192" fill="#64806b" font-family="Arial,sans-serif" font-size="14" font-weight="700">SUPPLIER INVOICE</text>
-<text x="855" y="232" fill="#1f3928" font-family="Arial,sans-serif" font-size="27" font-weight="700">INV-2026-0148</text>
-<rect x="893" y="311" width="243" height="100" rx="14" fill="#e4f3dc" transform="rotate(3 1014 361)"/>
-<text x="914" y="357" fill="#285b38" font-family="Arial,sans-serif" font-size="23" font-weight="700">✓  Extract &amp; validate</text>
-<rect x="816" y="452" width="258" height="80" rx="14" fill="#1b3225" stroke="#93ba8b"/>
-<text x="838" y="486" fill="#c5ed9e" font-family="Arial,sans-serif" font-size="15" font-weight="700">EXISTING ERP  ↗</text>
-<text x="838" y="511" fill="#e1eedd" font-family="Arial,sans-serif" font-size="14">Entry prepared for review</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Zerah Labs — Less paperwork. More production.">
+<defs><linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#222630"/><stop offset="1" stop-color="#13151B"/></linearGradient></defs>
+<rect width="1200" height="630" fill="#F8F8F6"/>
+<g transform="translate(71 58) rotate(-13 21 21)">
+<rect x="0" y="0" width="18" height="18" rx="6" fill="#15171C"/>
+<rect x="23" y="0" width="18" height="18" rx="3" fill="#465CF5"/>
+<rect x="0" y="23" width="18" height="18" rx="3" fill="#A3ADFF"/>
+<rect x="23" y="23" width="18" height="18" rx="6" fill="#15171C"/>
+</g>
+<text x="139" y="100" fill="#15171C" font-family="Arial,sans-serif" font-weight="700" font-size="36" letter-spacing="-2">zerah<tspan fill="#838998" font-size="23">/labs</tspan></text>
+<text x="74" y="231" fill="#15171C" font-family="Arial,sans-serif" font-size="82" font-weight="700" letter-spacing="-4">Less paperwork.</text>
+<text x="74" y="330" fill="#7E8391" font-family="Arial,sans-serif" font-size="82" font-weight="700" letter-spacing="-4">More production<tspan fill="#465CF5">.</tspan></text>
+<text x="78" y="387" fill="#465CF5" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="2">YOUR DATA. WE AUTOMATE. YOU IMPROVE.</text>
+<rect x="74" y="442" width="1052" height="134" rx="15" fill="url(#shade)"/>
+<text x="103" y="470" fill="#D3D7E5" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">SUPPLIER INVOICE</text>
+<rect x="102" y="485" width="290" height="67" rx="8" fill="#FFFFFF"/>
+<text x="118" y="516" fill="#262B3A" font-family="Arial,sans-serif" font-size="19" font-weight="700">INV-2048</text>
+<text x="118" y="537" fill="#8B8F9B" font-family="Arial,sans-serif" font-size="12">PO-1042 · ₹49,855.00</text>
+<path d="M413 519H521" stroke="#9DA7FF" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="529" y="482" width="215" height="70" rx="9" fill="#465CF5"/>
+<text x="550" y="510" fill="white" font-family="Arial,sans-serif" font-size="15" font-weight="700">✳  READ &amp; CHECK</text>
+<text x="550" y="532" fill="#DDE0FF" font-family="Arial,sans-serif" font-size="12">AI + business rules</text>
+<path d="M752 519H807" stroke="#9DA7FF" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="815" y="485" width="280" height="67" rx="8" fill="#FFFFFF"/>
+<text x="833" y="513" fill="#343A48" font-family="Arial,sans-serif" font-size="17" font-weight="700">ERP entry prepared</text>
+<text x="833" y="536" fill="#465CF5" font-family="Arial,sans-serif" font-size="12" font-weight="700">✓ Ready for review</text>
 </svg>
