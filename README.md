@@ -77,3 +77,7 @@ _headers
 robots.txt
 README.md
 ```
+
+### Confirm your public contact address
+
+An earlier Zerah website repository included `hello@zerahlab.com` as its contact address. This website uses that existing address for a direct email alternative while the form is being configured. **Confirm the mailbox is active and is still your preferred company contact before going live.** If not, replace both `mailto:` links and the displayed address in `index.html`.
