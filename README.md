@@ -28,6 +28,16 @@ python3 -m http.server 8080
 
 For the form and Pages Functions, deploy through **Cloudflare Pages** rather than opening the HTML file locally.
 
+## Deploy on GitHub Pages
+
+GitHub Actions workflow: `.github/workflows/deploy-pages.yml`.
+
+**One-time activation required for a brand-new repository:** The repository owner must open [Settings → Pages](https://github.com/Jayasuryamahadevan/zerah/settings/pages), choose **GitHub Actions** as the **Build and deployment → Source**, and save. Afterward, open [Publish Zerah Labs website](https://github.com/Jayasuryamahadevan/zerah/actions/workflows/deploy-pages.yml) under Actions and choose **Run workflow** or re-run the previously failed deployment. Future pushes to `main` deploy automatically.
+
+Expected public site: **https://jayasuryamahadevan.github.io/zerah/**. This link is only live after Pages has been enabled and a workflow completes successfully. A GitHub App connection with repository-content permissions cannot change the Pages setting on the repository owner's behalf.
+
+GitHub Pages is static hosting and **does not run** the Cloudflare Function in `functions/api/inquiry.js`. On `*.github.io`, the contact form instead opens a prefilled email draft to `hello@zerahlab.com`. A visitor must press **Send** in their email app. Verify that this mailbox is active before going live.
+
 ### Cloudflare Pages deployment
 
 1. Create a Cloudflare Pages project and connect `Jayasuryamahadevan/zerah`.
@@ -39,7 +49,7 @@ For the form and Pages Functions, deploy through **Cloudflare Pages** rather tha
    - `LEADS_FROM_EMAIL` — a sender address on a domain verified in Resend, such as `website@your-verified-domain.example`
 5. Deploy and test the website form end-to-end before advertising the contact page.
 
-**Important:** The lead form intentionally returns an error until these three variables are configured. The site does not pretend an enquiry was sent. Do **not** publish a guessed company email address. Add an actual verified public email address to the contact section once confirmed.
+**Important (Cloudflare Pages only):** The server-backed lead form intentionally returns an error until these three variables are configured. The site does not pretend an enquiry was sent. Do **not** publish a guessed company email address. Add an actual verified public email address to the contact section once confirmed.
 
 **Privacy:** The contact form collects name, business, email and optional description. It sends them to your configured Resend inbox; it does not store them in the site. Publish an appropriate privacy notice before enabling the live lead form. Add Turnstile/rate limiting if the endpoint receives unwanted submissions.
 
