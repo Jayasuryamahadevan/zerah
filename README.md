@@ -56,8 +56,8 @@ GitHub Pages is static hosting and **does not run** the Cloudflare Function in `
 ### Design system
 
 - Typeface: Manrope for headlines, DM Sans for UI/body, with system fallbacks.
-- Palette: deep industrial green, warm paper, muted botanical green, soft lime.
-- Layout: spacious hierarchy, strong left alignment, restrained illustration and motion.
+- Palette: porcelain / warm-white (#F8F8F6), graphite (#15171C), muted slate, and cobalt blue (#465CF5).
+- Layout: asymmetric editorial hero, strong typography, integrated invoice-to-ERP workflow preview, restrained accents and motion.
 - Accessibility: labelled inputs, semantic headings, keyboard-operable FAQ, visible focus states, mobile navigation, reduced motion, comfortable touch controls.
 - Visuals are **illustrative**, not fabricated screenshots or claims of actual customer integrations.
 
