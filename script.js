@@ -20,7 +20,7 @@ if (navToggle && navLinks) {
   document.addEventListener('click', (event) => {
     if (!navToggle.contains(event.target) && !navLinks.contains(event.target)) closeMenu();
   });
-  window.matchMedia('(min-width: 681px)').addEventListener('change', closeMenu);
+  window.matchMedia('(min-width: 741px)').addEventListener('change', closeMenu);
 }
 const year = document.getElementById('year');
 if (year) year.textContent = String(new Date().getFullYear());
