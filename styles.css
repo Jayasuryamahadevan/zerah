@@ -313,7 +313,7 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
   .contact-local{margin-top:30px}
   .contact-card{max-width:690px}
 }
-@media(max-width:740px){
+@media(max-width:800px){
   html{scroll-padding-top:75px}
   .container{width:calc(100% - 40px)}
   .nav{min-height:73px}
