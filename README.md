@@ -56,8 +56,8 @@ GitHub Pages is static hosting and **does not run** the Cloudflare Function in `
 ### Design system
 
 - Typeface: Manrope for headlines, DM Sans for UI/body, with system fallbacks.
-- Palette: porcelain / warm-white (#F8F8F6), graphite (#15171C), muted slate, and cobalt blue (#465CF5).
-- Layout: asymmetric editorial hero, strong typography, integrated invoice-to-ERP workflow preview, restrained accents and motion.
+- Palette: architectural warm white (#F7F6F3), charcoal (#202321), warm stone (#E8E6DF), and restrained copper (#A76C4D).
+- Layout: editorial split hero with free-to-use precision CNC photography, typography-led sections, row-based products, and a contained invoice-to-ERP demonstration.
 - Accessibility: labelled inputs, semantic headings, keyboard-operable FAQ, visible focus states, mobile navigation, reduced motion, comfortable touch controls.
 - Visuals are **illustrative**, not fabricated screenshots or claims of actual customer integrations.
 
@@ -91,3 +91,12 @@ README.md
 ### Confirm your public contact address
 
 An earlier Zerah website repository included `hello@zerahlab.com` as its contact address. This website uses that existing address for a direct email alternative while the form is being configured. **Confirm the mailbox is active and is still your preferred company contact before going live.** If not, replace both `mailto:` links and the displayed address in `index.html`.
+
+
+## Redesign (October 2026)
+
+The third visual direction intentionally departs from the earlier green and cobalt designs. The site uses an architectural neutral identity, subtle copper emphasis, large editorial type, a real manufacturing photograph, fewer decorative components, structured service explanations and a much calmer visual rhythm.
+
+Hero manufacturing photo: [Sven Daniel / Unsplash](https://unsplash.com/photos/a-close-up-of-a-machine-DV_rG1mjDxs) (free under Unsplash License). It is an **illustrative photograph** and is not represented as Zerah Labs' facility or a client engagement. The hero image currently loads from Unsplash's CDN, so it requires an internet connection.
+
+The website is for lead generation: the GitHub Pages form opens a prepared email draft for the visitor to send, while the Cloudflare Pages Function supports a server-backed form when configured.
