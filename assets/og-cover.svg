@@ -1,27 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Zerah Labs — Less paperwork. More production.">
-<defs><linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#222630"/><stop offset="1" stop-color="#13151B"/></linearGradient></defs>
-<rect width="1200" height="630" fill="#F8F8F6"/>
-<g transform="translate(71 58) rotate(-13 21 21)">
-<rect x="0" y="0" width="18" height="18" rx="6" fill="#15171C"/>
-<rect x="23" y="0" width="18" height="18" rx="3" fill="#465CF5"/>
-<rect x="0" y="23" width="18" height="18" rx="3" fill="#A3ADFF"/>
-<rect x="23" y="23" width="18" height="18" rx="6" fill="#15171C"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Zerah Labs manufacturing automation">
+<rect width="1200" height="630" fill="#F7F6F3"/>
+<path d="M0 154H1200M0 490H1200" stroke="#DFDDD7"/>
+<g transform="translate(76 57) rotate(-11 20 20)">
+  <rect x="0" y="0" width="18" height="18" rx="5" fill="#202321"/>
+  <rect x="23" y="0" width="18" height="18" rx="2" fill="#A76C4D"/>
+  <rect x="0" y="23" width="18" height="18" rx="2" fill="#C5A58D"/>
+  <rect x="23" y="23" width="18" height="18" rx="5" fill="#202321"/>
 </g>
-<text x="139" y="100" fill="#15171C" font-family="Arial,sans-serif" font-weight="700" font-size="36" letter-spacing="-2">zerah<tspan fill="#838998" font-size="23">/labs</tspan></text>
-<text x="74" y="231" fill="#15171C" font-family="Arial,sans-serif" font-size="82" font-weight="700" letter-spacing="-4">Less paperwork.</text>
-<text x="74" y="330" fill="#7E8391" font-family="Arial,sans-serif" font-size="82" font-weight="700" letter-spacing="-4">More production<tspan fill="#465CF5">.</tspan></text>
-<text x="78" y="387" fill="#465CF5" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="2">YOUR DATA. WE AUTOMATE. YOU IMPROVE.</text>
-<rect x="74" y="442" width="1052" height="134" rx="15" fill="url(#shade)"/>
-<text x="103" y="470" fill="#D3D7E5" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">SUPPLIER INVOICE</text>
-<rect x="102" y="485" width="290" height="67" rx="8" fill="#FFFFFF"/>
-<text x="118" y="516" fill="#262B3A" font-family="Arial,sans-serif" font-size="19" font-weight="700">INV-2048</text>
-<text x="118" y="537" fill="#8B8F9B" font-family="Arial,sans-serif" font-size="12">PO-1042 · ₹49,855.00</text>
-<path d="M413 519H521" stroke="#9DA7FF" stroke-width="2" stroke-dasharray="6 5"/>
-<rect x="529" y="482" width="215" height="70" rx="9" fill="#465CF5"/>
-<text x="550" y="510" fill="white" font-family="Arial,sans-serif" font-size="15" font-weight="700">✳  READ &amp; CHECK</text>
-<text x="550" y="532" fill="#DDE0FF" font-family="Arial,sans-serif" font-size="12">AI + business rules</text>
-<path d="M752 519H807" stroke="#9DA7FF" stroke-width="2" stroke-dasharray="6 5"/>
-<rect x="815" y="485" width="280" height="67" rx="8" fill="#FFFFFF"/>
-<text x="833" y="513" fill="#343A48" font-family="Arial,sans-serif" font-size="17" font-weight="700">ERP entry prepared</text>
-<text x="833" y="536" fill="#465CF5" font-family="Arial,sans-serif" font-size="12" font-weight="700">✓ Ready for review</text>
+<text x="141" y="102" font-family="Arial,sans-serif" fill="#191B1A" font-weight="700" font-size="34" letter-spacing="-1.8">zerah<tspan font-size="21" fill="#777870">labs</tspan></text>
+<text x="78" y="224" font-family="Arial,sans-serif" fill="#855338" font-weight="700" font-size="15" letter-spacing="2">MANUFACTURING WORKFLOW AUTOMATION</text>
+<text x="71" y="319" font-family="Arial,sans-serif" fill="#191B1A" font-weight="700" font-size="76" letter-spacing="-4">Production doesn't</text>
+<text x="71" y="407" font-family="Arial,sans-serif" fill="#191B1A" font-weight="700" font-size="76" letter-spacing="-4">pause for <tspan fill="#A76C4D">paperwork.</tspan></text>
+<rect x="828" y="182" width="304" height="245" fill="#202321"/>
+<path d="M849 225H1111M849 270H1111M849 315H1111M849 360H1111M888 202V410M948 202V410M1008 202V410M1068 202V410" stroke="#4E514A" stroke-width="1"/>
+<rect x="874" y="249" width="213" height="47" fill="#F7F6F3"/>
+<text x="891" y="279" font-family="Arial,sans-serif" fill="#191B1A" font-size="14" font-weight="700">INVOICE  →  ERP</text>
+<rect x="874" y="313" width="213" height="47" fill="#A76C4D"/>
+<text x="891" y="342" font-family="Arial,sans-serif" fill="#FFFFFF" font-size="14" font-weight="700">READY FOR REVIEW  ↗</text>
+<text x="78" y="556" font-family="Arial,sans-serif" fill="#686A64" font-weight="700" font-size="22">Your data. We automate. You improve.</text>
+<text x="1130" y="554" font-family="Arial,sans-serif" fill="#8C8C85" font-size="14" text-anchor="end">COIMBATORE, INDIA</text>
 </svg>
