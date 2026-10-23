@@ -42,6 +42,22 @@ if (form) {
     }
     const data = Object.fromEntries(new FormData(form).entries());
     if (data.website) return;
+    if (window.location.hostname.toLowerCase().endsWith('.github.io')) {
+      const subject = 'Zerah Labs enquiry — ' + data.company;
+      const body = [
+        'Name: ' + data.name,
+        'Company: ' + data.company,
+        'Email: ' + data.email,
+        'Workflow: ' + data.workflow,
+        '',
+        'Details:',
+        data.message || '(not provided)'
+      ].join('\n');
+      const mailto = 'mailto:hello@zerahlab.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      setFeedback('Your email app will open with a prepared message. Press Send there to complete your enquiry.');
+      window.location.href = mailto;
+      return;
+    }
     submit.disabled = true;
     submit.textContent = 'Sending your enquiry…';
     try {
