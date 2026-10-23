@@ -22,7 +22,7 @@ if (menuButton && menu) {
   document.addEventListener('click', event => {
     if (!menuButton.contains(event.target) && !menu.contains(event.target)) closeMenu();
   });
-  window.matchMedia('(min-width: 741px)').addEventListener('change', closeMenu);
+  window.matchMedia('(min-width: 801px)').addEventListener('change', closeMenu);
 }
 
 const year = document.getElementById('year');
