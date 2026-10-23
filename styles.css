@@ -441,3 +441,8 @@ a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,s
  .flow-card{padding:10px 4px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+.direct-email{margin:17px 0 0;text-align:center;font-size:12px;color:#7c8d7c}
+.direct-email a{color:#275637;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.footer-mail{display:block;font-size:13px;color:#345d3d;font-weight:800;margin:-18px 0 28px}
+.footer-mail:hover{text-decoration:underline;text-underline-offset:3px}
