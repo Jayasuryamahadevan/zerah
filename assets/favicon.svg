@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Zerah Labs logo">
-<rect width="64" height="64" rx="16" fill="#15171C"/>
-<g transform="rotate(-13 32 32)">
-<rect x="13" y="13" width="17" height="17" rx="6" fill="#F8F8F6"/>
-<rect x="34" y="13" width="17" height="17" rx="3" fill="#465CF5"/>
-<rect x="13" y="34" width="17" height="17" rx="3" fill="#A3ADFF"/>
-<rect x="34" y="34" width="17" height="17" rx="6" fill="#F8F8F6"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Zerah Labs">
+<rect width="64" height="64" rx="12" fill="#202321"/>
+<g transform="rotate(-11 32 32)">
+<rect x="13" y="13" width="17" height="17" rx="5" fill="#F7F6F3"/>
+<rect x="34" y="13" width="17" height="17" rx="2" fill="#A76C4D"/>
+<rect x="13" y="34" width="17" height="17" rx="2" fill="#C5A58D"/>
+<rect x="34" y="34" width="17" height="17" rx="5" fill="#F7F6F3"/>
 </g></svg>
